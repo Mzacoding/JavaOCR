@@ -1,0 +1,1 @@
+A simple yet powerful Java application for performing Optical Character Recognition (OCR) on images, leveraging the robust Tesseract OCR engine via the Tess4J library. This project demonstrates how to extract text from various image formats, making it a foundational tool for document processing, data extraction, and automation tasks.
