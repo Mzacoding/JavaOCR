@@ -12,13 +12,21 @@
         <maven.compiler.source>24</maven.compiler.source>
         <maven.compiler.target>24</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- You can define properties here, e.g., <tess4j.version>5.11.0</tess4j.version> -->
+    </properties>
 
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
         <dependency>
             <groupId>net.sourceforge.tess4j</groupId>
             <artifactId>tess4j</artifactId>
-            <version>5.11.0</version> <!-- Check for the latest version on Maven Central -->
+            <version>5.16.0</version>
         </dependency>
 
-    </properties>
+
+    </dependencies>
+
+
 
 </project>
